@@ -1,0 +1,33 @@
+body {
+    background-color: #e8f5e9; /* verde claro */
+}
+
+/* Cartão de login reutilizável se precisar */
+.login-card {
+    background-color: #ffffff;
+    border-left: 5px solid #4caf50;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.btn-success {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+.btn-success:hover {
+    background-color: #43a047;
+    border-color: #43a047;
+}
+
+/* Sidebar custom */
+.sidebar {
+    min-height: 100vh;
+    border-right: 1px solid #c8e6c9;
+}
+
+.sidebar .nav-link.active {
+    font-weight: bold;
+    background-color: #c8e6c9;
+    border-left: 4px solid #388e3c;
+}
